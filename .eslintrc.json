@@ -28,8 +28,8 @@
     "react-hooks/exhaustive-deps": "warn",
     "react/jsx-filename-extension": [1, { "extensions": [".tsx"] }],
     "import/prefer-default-export": "off",
-    "no-use-before-define": "off",
     "prettier/prettier": "error",
+    "no-use-before-define": "off",
     "import/extensions": [
       "error",
       "ignorePackages",
@@ -41,7 +41,7 @@
   },
   "settings": {
     "import/resolver": {
-      "typescript": {}
+      "typescript": { "extensions": [".js", ".jsx", ".ts", ".tsx"] }
     }
   }
 }
